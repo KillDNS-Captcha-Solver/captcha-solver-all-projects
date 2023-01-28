@@ -1,0 +1,3 @@
+[submodule "src/core/captcha-solver-core"]
+	path = src/core/captcha-solver-core
+	url = git@github.com:KillDNS-Captcha-Solver/captcha-solver-core.git
