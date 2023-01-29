@@ -1,3 +1,6 @@
 [submodule "src/core/captcha-solver-core"]
 	path = src/core/captcha-solver-core
 	url = git@github.com:KillDNS-Captcha-Solver/captcha-solver-core.git
+[submodule "src/connectors/connector-in-memory"]
+	path = src/connectors/connector-in-memory
+	url = git@github.com:KillDNS-Captcha-Solver/connector-in-memory.git
