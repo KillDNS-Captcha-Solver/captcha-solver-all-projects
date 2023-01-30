@@ -4,3 +4,9 @@
 [submodule "src/connectors/connector-in-memory"]
 	path = src/connectors/connector-in-memory
 	url = git@github.com:KillDNS-Captcha-Solver/connector-in-memory.git
+[submodule "src/handlers/winforms/handlers-winforms-common"]
+	path = src/handlers/winforms/handlers-winforms-common
+	url = git@github.com:KillDNS-Captcha-Solver/handlers-winforms-common.git
+[submodule "src/handlers/winforms/handlers-winforms"]
+	path = src/handlers/winforms/handlers-winforms
+	url = git@github.com:KillDNS-Captcha-Solver/handlers-winforms.git

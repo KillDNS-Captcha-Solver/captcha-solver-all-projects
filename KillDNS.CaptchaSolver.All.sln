@@ -12,6 +12,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillDNS.CaptchaSolver.Conne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillDNS.CaptchaSolver.Connectors.InMemory.Tests", "src\connectors\connector-in-memory\tests\KillDNS.CaptchaSolver.Connectors.InMemory.Tests.csproj", "{4E5A4F48-4FA8-4AFE-A4D0-0040580193AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{73869AEA-C000-49E3-B0FE-CF0DE8574A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Winforms", "Winforms", "{15D5CF08-2174-4189-8783-16F0791D5806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillDNS.CaptchaSolver.Handlers.WinForms.Common", "src\handlers\winforms\handlers-winforms-common\src\KillDNS.CaptchaSolver.Handlers.WinForms.Common.csproj", "{C8BBE8BC-7238-4601-985B-E4EE607BAF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillDNS.CaptchaSolver.Handlers.WinForms", "src\handlers\winforms\handlers-winforms\src\KillDNS.CaptchaSolver.Handlers.WinForms.csproj", "{2645FF3D-B39C-4B7B-B96D-4FF069B22111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +30,9 @@ Global
 		{F0285C37-711B-4D2A-86CA-3BC2C4ADC017} = {581B4AC9-4B66-4A62-A549-21897179EFA8}
 		{F74C0B9F-9FBC-47D8-B30E-24697090A132} = {F0285C37-711B-4D2A-86CA-3BC2C4ADC017}
 		{4E5A4F48-4FA8-4AFE-A4D0-0040580193AA} = {F0285C37-711B-4D2A-86CA-3BC2C4ADC017}
+		{15D5CF08-2174-4189-8783-16F0791D5806} = {73869AEA-C000-49E3-B0FE-CF0DE8574A86}
+		{C8BBE8BC-7238-4601-985B-E4EE607BAF54} = {15D5CF08-2174-4189-8783-16F0791D5806}
+		{2645FF3D-B39C-4B7B-B96D-4FF069B22111} = {15D5CF08-2174-4189-8783-16F0791D5806}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3D7BD72A-860F-472F-907A-65D4272DE9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +47,13 @@ Global
 		{4E5A4F48-4FA8-4AFE-A4D0-0040580193AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5A4F48-4FA8-4AFE-A4D0-0040580193AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5A4F48-4FA8-4AFE-A4D0-0040580193AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BBE8BC-7238-4601-985B-E4EE607BAF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BBE8BC-7238-4601-985B-E4EE607BAF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BBE8BC-7238-4601-985B-E4EE607BAF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BBE8BC-7238-4601-985B-E4EE607BAF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2645FF3D-B39C-4B7B-B96D-4FF069B22111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2645FF3D-B39C-4B7B-B96D-4FF069B22111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2645FF3D-B39C-4B7B-B96D-4FF069B22111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2645FF3D-B39C-4B7B-B96D-4FF069B22111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
